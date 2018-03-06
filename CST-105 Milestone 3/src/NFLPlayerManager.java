@@ -197,7 +197,7 @@ public class NFLPlayerManager {
 	
 	// creates a string value of all the players organized in tabular form 
 	public String toString() {
-		
+		// loops though each players properties then starts a new line with a new property to display all data in an easy to read format
 		stringValue = "Player Name\t";		
 		for(int i = 0; i < numberOfPlayers; i ++) {
 			stringValue = stringValue + player[i].getName() + "\t";
