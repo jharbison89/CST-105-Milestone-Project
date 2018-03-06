@@ -1,6 +1,11 @@
 
 public class NFLPlayerManager {
 
+	/* Created by James Harbison
+	 * this program creates an array of NFLPlayers and manages them, it can set and get properties, return the 
+	 * index of a specified player based on name and display all players in the array
+	 */
+	
 	// initialize variables
 	private int playerSelector;
 	private NFLPlayer[] player;
@@ -149,22 +154,22 @@ public class NFLPlayerManager {
 	}
 	
 	// returns tackles per game counting both tackles and sacks as a tackle, if no games are played returns 0
-	double getTacklesPerGame(int i) {
+	double getPlayerTacklesPerGame(int i) {
 		return player[i].getTacklesPerGame();
 	}
 	
 	// returns fumbles per game, if no games are played returns 0
-	double getFumblesPerGame(int i) {
+	double getPlayerFumblesPerGame(int i) {
 		return player[i].getFumblesPerGame();
 	}
 	
 	// returns interceptions per game, if no games are played returns 0
-	double getInterceptionsPerGame(int i) {
+	double getPlayerInterceptionsPerGame(int i) {
 		return player[i].getInterceptionsPerGame();
 	}
 	
 	// returns sacks per game, if no games are played returns 0
-	double getSacksPerGame(int i) {
+	double getPlayerSacksPerGame(int i) {
 		return player[i].getSacksPerGame();
 	}
 

@@ -1,6 +1,10 @@
 
 public class NFLPlayerManager_Driver {
 
+	/* Created by James Harbison
+	 * this program acts as a driver to test the NFLPlayerManager class
+	 */
+	
 	public static void main(String[] args) {
 		
 		// initialize player array with default size 6 using the no arg constructor
