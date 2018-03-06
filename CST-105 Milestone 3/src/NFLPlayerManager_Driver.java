@@ -28,7 +28,7 @@ public class NFLPlayerManager_Driver {
 		}
 		
 		// tests the toString method
-		System.out.println("No arg constrcutor test");
+		System.out.println("No arg constrcutor test\n");
 		System.out.println(manager1.toString());
 		
 		// initialize player array with size 10 using the alternate constructor
@@ -52,7 +52,7 @@ public class NFLPlayerManager_Driver {
 		}		
 		
 		// tests the toString method with manager 2
-		System.out.println("Size constructor arg test with size 10;");
+		System.out.println("\nSize constructor arg test with size 10;\n");
 		System.out.println(manager2);
 	}
 }

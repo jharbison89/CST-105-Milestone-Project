@@ -195,12 +195,50 @@ public class NFLPlayerManager {
 		return playerSelector;
 	}
 	
-	// creates a string value of all the players organized in tabular form with a separator between each player
+	// creates a string value of all the players organized in tabular form 
 	public String toString() {
-		stringValue = "";
+		
+		stringValue = "Player Name\t";		
 		for(int i = 0; i < numberOfPlayers; i ++) {
-			stringValue = stringValue + player[i].toString() + "\n__________________________\n\n";
+			stringValue = stringValue + player[i].getName() + "\t";
 		}
+		stringValue = stringValue + "\nPassing Yards\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getPassYards() + "\t\t";
+		}
+		stringValue = stringValue + "\nRushing Yards\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getRushYards() + "\t\t";
+		}
+		stringValue = stringValue + "\nGamesPlayed\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getGamesPlayed() + "\t\t";
+		}
+		stringValue = stringValue + "\nMinutes Played\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getMinutesPlayed() + "\t\t";
+		}
+		stringValue = stringValue + "\nTackles\t\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getTackles() + "\t\t";
+		}
+		stringValue = stringValue + "\nSacks\t\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getSacks() + "\t\t";
+		}
+		stringValue = stringValue + "\nInterceptions\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getInterceptions() + "\t\t";
+		}
+		stringValue = stringValue + "\nFumbles\t\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getFumbles() + "\t\t";
+		}
+		stringValue = stringValue + "\nTotal Yards\t";
+		for(int i = 0; i < numberOfPlayers; i ++) {
+			stringValue = stringValue + player[i].getTotalYards() + "\t\t";
+		}
+		
 		return stringValue;
 	}
 }
