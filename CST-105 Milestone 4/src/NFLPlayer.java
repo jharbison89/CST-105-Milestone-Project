@@ -2,7 +2,7 @@
 public abstract class NFLPlayer {
 
 	/* Created by James Harbison 
-	 * This program serves as a player class for the milestone project.  This class will hold
+	 * This program serves as a player class for the milestone project.  This abstract class will hold
 	 * information on an individual player that can be manipulated and read back to ensure that
 	 * a user of the drafting program will be able to see which stats are important as well as
 	 * output a complete overview using the toString function

@@ -2,6 +2,10 @@
 public class NFLDefensivePlayer
 	extends NFLPlayer{
 	
+	/* Created by James Harbison
+	 * this extends the NFLPlayer class with stats that pertain to a defensive player
+	 */
+	
 	private int tackles;
 	private int sacks;
 	private int interceptions;

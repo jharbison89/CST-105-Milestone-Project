@@ -2,6 +2,10 @@
 public class NFLOffensivePlayer 
 	extends NFLPlayer{
 	
+	/* Created by James Harbison
+	 * this extends the NFLPlayer class with stats that pertain to an offensive player
+	 */
+	
 	private int passYards;
 	private int rushYards;
 	private int totalYards;
